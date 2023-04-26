@@ -1,6 +1,6 @@
 <h1>Edit products</h1>
 
-<a href="<?=base_url?>producto/crear" class="button button-small">
+<a href="<?=base_url?>producto/crear" class="button btn-create">
 	Create product
 </a>
 
@@ -33,8 +33,8 @@
 			<td><?=$pro->precio;?></td>
 			<td><?=$pro->stock;?></td>
 			<td>
-				<a href="<?=base_url?>producto/editar&id=<?=$pro->id?>" class="button button-gestion">Edit</a>
-				<a href="<?=base_url?>producto/eliminar&id=<?=$pro->id?>" class="button button-gestion button-red">Delete</a>
+				<a href="<?=base_url?>producto/editar&id=<?=$pro->id?>" class="fas fa-edit button-gestion" ></a>
+				<a href="<?=base_url?>producto/eliminar&id=<?=$pro->id?>" class="fas fa-trash button-gestion"></a>
 			</td>
 		</tr>
 	<?php endwhile; ?>
