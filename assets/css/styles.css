@@ -25,10 +25,12 @@ a {
 
 .alert_green {
     color: green;
+    margin-left: 10rem;
 }
 
 .alert_red {
     color: red;
+    margin-left: 10rem;
 }
 
 table {
@@ -42,6 +44,11 @@ td {
     border-top: 1px solid #ccc;
     padding: 15px;
 }
+
+td a {
+    margin-right: 1rem;
+}
+
 
 .thumb {
     width: 100px;
@@ -272,7 +279,7 @@ button:hover,
     transform: translate(0px, -3px);
 }
 
-.btn-create{
+.btn-create {
     padding: 1rem 2rem;
 }
 
@@ -309,7 +316,6 @@ button {
     font-weight: normal;
     letter-spacing: 1px;
     text-align: center;
-    border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
     padding: 20px;
     padding-top: 0px;
@@ -317,7 +323,7 @@ button {
 
 /*PRODUCTOS*/
 
-.products{
+.products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
     gap: 2rem;
@@ -325,7 +331,7 @@ button {
     grid-row-gap: 4rem;
 }
 
-.product-box{
+.product-box {
     background: var(--white);
     height: auto;
     cursor: pointer;
@@ -335,7 +341,7 @@ button {
     text-align: center;
 }
 
-.product-content{
+.product-content {
     margin-top: 3rem;
 }
 
@@ -349,15 +355,15 @@ button {
     border-radius: 10px;
 }
 
-.product  .stars{
+.product .stars {
     padding: 3.5rem;
- }
+}
 
- .product .stars i{
+.product .stars i {
     font-size: 1.7rem;
     color: var(--bg);
- }
- 
+}
+
 
 .img_carrito {
     height: 80px;

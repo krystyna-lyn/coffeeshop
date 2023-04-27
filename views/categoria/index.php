@@ -1,6 +1,6 @@
 <h1>Edit categories</h1>
 
-<a href="<?=base_url?>categoria/crear" class="button button-small">
+<a href="<?=base_url?>categoria/crear" class="button btn-create">
 	Create category
 </a>
 

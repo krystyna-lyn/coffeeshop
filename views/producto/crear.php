@@ -1,5 +1,5 @@
 <?php if(isset($edit) && isset($pro) && is_object($pro)): ?>
-	<h1>Editar producto <?=$pro->nombre?></h1>
+	<h1>Edit product <?=$pro->nombre?></h1>
 	<?php $url_action = base_url."producto/save&id=".$pro->id; ?>
 	
 <?php else: ?>

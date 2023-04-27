@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 26. Apr 2023 um 13:12
+-- Erstellungszeit: 26. Apr 2023 um 20:27
 -- Server-Version: 10.4.27-MariaDB
 -- PHP-Version: 8.2.0
 
@@ -115,12 +115,14 @@ CREATE TABLE `productos` (
 --
 
 INSERT INTO `productos` (`id`, `categoria_id`, `nombre`, `descripcion`, `precio`, `stock`, `oferta`, `fecha`, `imagen`) VALUES
-(1, 4, 'Arabica Coffee', 'Colombian Coffee', 400.00, 4, NULL, '2023-02-08', 'product1.jpg'),
+(1, 3, 'Arabica Coffee', 'Colombian Coffee', 400.00, 4, NULL, '2023-02-08', 'product1.jpg'),
 (2, 1, 'Robusta Coffee', 'Brazilian Coffee', 300.00, 5, NULL, '2023-02-08', 'product2.jpg'),
-(3, 2, 'Arabica Coffee', 'Ethiopian Coffee', 200.00, 7, NULL, '2023-02-08', 'product3.jpg'),
-(4, 3, 'Specialty Coffee', 'Jamaican Blue Mountain Coffee', 500.00, 5, NULL, '2023-02-08', 'product4.jpg'),
-(5, 4, 'Arabica Coffee', 'Costa Rican Coffee', 350.00, 5, NULL, '2023-02-08', 'product5.jpg'),
-(6, 1, 'Robusta Coffee', 'Indonesian Coffee', 250.00, 8, NULL, '2023-02-08', 'product6.jpg');
+(3, 3, 'Arabica Coffee', 'Ethiopian Coffee', 200.00, 7, NULL, '2023-02-08', 'product3.jpg'),
+(4, 4, 'Specialty Coffee', 'Jamaican Blue Mountain Coffee', 500.00, 5, NULL, '2023-02-08', 'product4.jpg'),
+(5, 3, 'Arabica Coffee', 'Costa Rican Coffee', 350.00, 5, NULL, '2023-02-08', 'product5.jpg'),
+(6, 1, 'Robusta Coffee', 'Indonesian Coffee', 255.00, 8, NULL, '2023-02-08', 'product6.jpg'),
+(8, 2, 'Flavored Coffee', 'Pumpkin Spice Coffee', 250.00, 3, NULL, '2023-04-26', 'product8.jpg'),
+(9, 4, 'Specialty Coffee', 'Kona Coffee', 255.00, 4, NULL, '2023-04-26', 'product7.jpg');
 
 -- --------------------------------------------------------
 
@@ -211,7 +213,7 @@ ALTER TABLE `pedidos`
 -- AUTO_INCREMENT für Tabelle `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT für Tabelle `usuarios`
