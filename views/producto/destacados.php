@@ -2,8 +2,6 @@
 
 <div class="products">
 
-
-
 	<?php while ($product = $productos->fetch_object()): ?>
 
 		<div class="product-box">

@@ -42,6 +42,4 @@
 			</nav>
       
 
-		
-
 			<div id="content">

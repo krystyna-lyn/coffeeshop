@@ -1,7 +1,10 @@
 <!-- BARRA LATERAL -->
 <aside id="lateral">
 
+<div class="product-box">
+	<div class="product">
 	<div id="carrito" class="block_aside">
+		
 		<h3>My products</h3>
 		<ul>
 			<?php $stats = Utils::statsCarrito(); ?>
@@ -14,13 +17,13 @@
 	<div id="login" class="block_aside">
 		
 		<?php if(!isset($_SESSION['identity'])): ?>
-			<h3>Entrar a la web</h3>
+			<h3>Login</h3>
 			<form action="<?=base_url?>usuario/login" method="post">
-				<label for="email">Email</label>
+				<label for="email">E-Mail</label>
 				<input type="email" name="email" />
 				<label for="password">Password</label>
 				<input type="password" name="password" />
-				<input type="submit" value="Enviar" />
+				<input type="submit" value="Login" />
 			</form>
 		<?php else: ?>
 			<h3><?=$_SESSION['identity']->nombre?> <?=$_SESSION['identity']->apellidos?></h3>
@@ -37,9 +40,11 @@
 				<li><a href="<?=base_url?>pedido/mis_pedidos">My orders</a></li>
 				<li><a href="<?=base_url?>usuario/logout">Logout</a></li>
 			<?php else: ?> 
-				<li><a href="<?=base_url?>usuario/registro">Sign up</a></li>
+				<li><a href="<?=base_url?>usuario/registro">Sign Up</a></li>
 			<?php endif; ?> 
 		</ul>
+	</div>
+	</div>
 	</div>
 
 </aside>
