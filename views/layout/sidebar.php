@@ -1,7 +1,7 @@
 <!-- BARRA LATERAL -->
 <aside id="lateral">
 
-<div class="product-box">
+<div class="product-box login">
 	<div class="product">
 	<div id="carrito" class="block_aside">
 		

@@ -7,6 +7,7 @@ require_once 'helpers/utils.php';
 require_once 'views/layout/header.php';
 require_once 'views/layout/sidebar.php';
 
+
 function show_error(){
 	$error = new errorController();
 	$error->index();
@@ -38,7 +39,6 @@ if(class_exists($nombre_controlador)){
 }else{
 	show_error();
 }
-
 require_once 'views/layout/footer.php';
 
 

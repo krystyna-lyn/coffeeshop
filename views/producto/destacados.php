@@ -1,6 +1,6 @@
 <h1>Our products</h1>
 
-<div class="products">
+<div class="products" id="products">
 
 	<?php while ($product = $productos->fetch_object()): ?>
 
@@ -33,4 +33,5 @@
 	<?php endwhile;?>
 
 </div>
+
 

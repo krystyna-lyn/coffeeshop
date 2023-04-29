@@ -11,13 +11,12 @@
 			  <!-- Header Section -->
 			  <div class="header" id="home">
         <nav id="navbar">
-            <a href="#home" class="logo">LOGO <span>.</span></a>
+            <a href="" class="logo"><img src="<?=base_url?>assets/img/logo.png" alt=""></a>
             <div class="links" id="nav">
                 <a href="#home">Home</a>
-                <a href="#about">About</a>
+                <a href="#products">Products</a>
                 <a href="#blog">Blog</a>
                 <a href="#service">Services</a>
-                <a href="#team">Team</a>
                 <a href="#contact">Contact</a>
             </div>
             <div class="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>

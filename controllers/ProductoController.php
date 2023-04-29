@@ -7,7 +7,7 @@ class productoController{
 		$producto = new Producto();
 		$productos = $producto->getRandom(6);
 	
-		// renderizar vista
+		//  view render
 		require_once 'views/producto/destacados.php';
 	}
 	
