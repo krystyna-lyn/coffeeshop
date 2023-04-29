@@ -177,7 +177,6 @@ nav #close {
     width: 19%;
     min-height: 500px;
     float: left;
-    margin-top: 125px;
     margin-left: 10px;
 }
 
@@ -302,24 +301,13 @@ button {
 }
 
 
-
 /*CENTRAL*/
 #central {
     width: 80%;
     min-height: 500px;
     float: right;
-    padding: 25px;
 }
 
-#central h1 {
-    font-size: 24px;
-    font-weight: normal;
-    letter-spacing: 1px;
-    text-align: center;
-    margin-bottom: 20px;
-    padding: 20px;
-    padding-top: 0px;
-}
 
 /*PRODUCTOS*/
 
@@ -327,7 +315,7 @@ button {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
     gap: 2rem;
-    padding: 2.5rem 0;
+    padding: 1rem 0 1rem 1rem;
     grid-row-gap: 4rem;
 }
 
