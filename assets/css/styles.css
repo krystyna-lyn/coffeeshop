@@ -129,8 +129,8 @@ nav #close {
 /*MENU*/
 #menu {
     clear: both;
-    background: #fff;
-    color: white;
+    background: var(--white);
+    color: var(--white);
     height: 8rem;
     display: flex;
     justify-content: center;
@@ -161,15 +161,16 @@ nav #close {
 
 
 #menu a:hover {
-    background: #121212;
-    color: #fff;
+    background: rgba(0, 0, 0, 0.9);
+    color: var(--white);
+    border-radius: 10px;
 }
 
 /*CONTENT*/
 #content {
     margin: 0px auto;
     overflow: hidden;
-    background: #fff;
+    background: var(--white);
 }
 
 /*BARRA LATERAL*/
@@ -306,6 +307,9 @@ button {
     width: 80%;
     min-height: 500px;
     float: right;
+}
+#central h1{
+    text-align: center;
 }
 
 
