@@ -125,7 +125,6 @@ nav #close {
 }
 
 
-
 /*MENU*/
 #menu {
     clear: both;
@@ -184,7 +183,7 @@ nav #close {
 #lateral .block_aside {
     display: block;
     width: 90%;
-    margin: 5px auto;
+    margin: 15px auto auto auto;
     padding: 10px;
 }
 
@@ -325,7 +324,7 @@ button {
 
 .product-box {
     background: var(--white);
-    height: auto;
+    height: 35rem;
     cursor: pointer;
     box-shadow: 3px 3px 10px rgba(179, 179, 179, 0.2);
     padding-bottom: 3rem;
@@ -725,3 +724,20 @@ button {
     text-align: center;
     background: var(--bg);
 }
+
+@media only screen and (max-width: 991px) {
+    html {
+        font-size: 55%;
+
+    }
+
+    nav {
+        padding: 3rem 3rem;
+    }
+
+    .content {
+        text-align: center;
+    }
+}
+
+
