@@ -387,6 +387,7 @@ button {
 
 #detail-product {
     width: 100%;
+    padding: 3rem;
 }
 
 #detail-product .image {
@@ -407,11 +408,13 @@ button {
 }
 
 #detail-product .description {
+    font-size: 25px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
 #detail-product .price {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     font-size: 20px;
     color: #444;
 }
@@ -609,7 +612,7 @@ button {
 }
 
 .contact .container .contact-box:hover {
-    background: #422001;
+    background: var(--black);
     ;
     color: var(--white);
 }
