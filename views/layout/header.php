@@ -24,6 +24,11 @@
         </nav>
 		</div>
 
+		<div class="bg">
+            <h3>Now you can feel the energy</h3>
+            <h1>Start your day with <br>a coffee</h1>
+            <button class="btn">Buy Now</button>
+        </div>
 		
 <!-- MENU -->
 <?php $categorias = Utils::showCategorias(); ?>
