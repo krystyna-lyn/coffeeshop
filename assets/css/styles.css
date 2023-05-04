@@ -203,14 +203,25 @@ nav .links a:hover::after {
     overflow: hidden;
     background: var(--white);
 }
+#user{
+    position: relative;
+    display: contents;
+}
 
 /*BARRA LATERAL*/
 #lateral {
+    position: absolute;
+    right: 7rem;
     width: 19%;
-    min-height: 500px;
+    display: none;
+    /*min-height: 500px;
     float: left;
-    margin-left: 10px;
+    margin-left: 10px;*/
 }
+
+#user:hover #lateral {
+    display: block;
+  }
 
 #lateral .block_aside {
     display: block;
@@ -475,7 +486,7 @@ button {
 
 .blog .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap: 2rem;
     padding: 2.5rem 0;
 }
@@ -596,7 +607,7 @@ button {
 
 .contact .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap: 2rem;
     padding: 2.5rem 0;
 
