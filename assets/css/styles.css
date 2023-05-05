@@ -126,6 +126,7 @@ nav .links a:hover::after {
     cursor: pointer;
     display: none;
 }
+
 /*BG*/
 
 .bg {
@@ -135,6 +136,7 @@ nav .links a:hover::after {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .bg {
     padding: 150px 7%;
     color: var(--white);
@@ -203,7 +205,8 @@ nav .links a:hover::after {
     overflow: hidden;
     background: var(--white);
 }
-#user{
+
+#user {
     position: relative;
     display: contents;
 }
@@ -211,7 +214,7 @@ nav .links a:hover::after {
 /*BARRA LATERAL*/
 #lateral {
     position: absolute;
-    right: 7rem;
+    right: 6rem;
     width: 19%;
     display: none;
     /*min-height: 500px;
@@ -221,7 +224,11 @@ nav .links a:hover::after {
 
 #user:hover #lateral {
     display: block;
-  }
+}
+
+ #lateral .login-box {
+    background: #111111;
+}
 
 #lateral .block_aside {
     display: block;
@@ -244,15 +251,19 @@ nav .links a:hover::after {
 }
 
 #lateral ul {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 #lateral ul li {
-    list-style: square;
+    margin-bottom: 30px;
+}
+
+#lateral a {
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: none;
     margin-left: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 40px;
     list-style: none;
 }
 
@@ -298,7 +309,8 @@ input[type="email"]:focus {
 input[type="button"],
 input[type="submit"],
 button,
-.button, .btn {
+.button,
+.btn {
     padding: 1rem 5rem;
     margin: 3rem 0;
     cursor: pointer;
@@ -314,7 +326,8 @@ button,
 input[type="button"]:hover,
 input[type="submit"]:hover,
 button:hover,
-.button:hover, .btn:hover{
+.button:hover,
+.btn:hover {
     background: var(--bg);
     color: var(--white);
     transform: translate(0px, -3px);
@@ -784,7 +797,7 @@ button {
         left: -9rem;
     }
 
-     #menu-btn {
+    #menu-btn {
         display: inline-block;
     }
 
@@ -809,7 +822,7 @@ button {
         text-align: center;
     }
 
-    #lateral .login{
+    #lateral .login-box {
         height: 360px;
     }
 
@@ -818,7 +831,7 @@ button {
     }
 
     #content {
-       align-items: center;
+        align-items: center;
     }
 
     #lateral {

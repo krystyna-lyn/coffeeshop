@@ -27,7 +27,7 @@
 						<a href="#lateral"><i class="fa-solid fa-user"></a>
 						<aside id="lateral">
 
-							<div class="product-box login">
+							<div class="product-box login-box">
 								<div class="product">
 									<div id="carrito" class="block_aside">
 
