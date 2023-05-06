@@ -85,11 +85,7 @@
 			</nav>
 		</div>
 
-		<div class="bg">
-			<h3>Where every cup is a special occasion</h3>
-			<h1>Life's better with <br>coffee</h1>
-			<button class="btn">Buy Now</button>
-		</div>
+		
 
 		<!-- MENU -->
 		<?php $categorias = Utils::showCategorias(); ?>

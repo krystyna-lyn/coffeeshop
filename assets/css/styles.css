@@ -226,7 +226,7 @@ nav .links a:hover::after {
     display: block;
 }
 
- #lateral .login-box {
+#lateral .login-box {
     background: #111111;
 }
 
@@ -356,10 +356,9 @@ button {
     margin-top: 10px;
 }
 
-
 /*CENTRAL*/
 #central {
-    width: 80%;
+    width: 100%;
     min-height: 500px;
     float: right;
 }
@@ -367,7 +366,6 @@ button {
 #central h1 {
     text-align: center;
 }
-
 
 /*PRODUCTOS*/
 
