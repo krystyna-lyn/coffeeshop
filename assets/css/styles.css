@@ -126,6 +126,7 @@ nav .links a:hover::after {
     cursor: pointer;
     display: none;
 }
+
 /*BG*/
 
 .bg {
@@ -135,6 +136,7 @@ nav .links a:hover::after {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .bg {
     padding: 150px 7%;
     color: var(--white);
@@ -204,12 +206,28 @@ nav .links a:hover::after {
     background: var(--white);
 }
 
+#user {
+    position: relative;
+    display: contents;
+}
+
 /*BARRA LATERAL*/
 #lateral {
+    position: absolute;
+    right: 6rem;
     width: 19%;
-    min-height: 500px;
+    display: none;
+    /*min-height: 500px;
     float: left;
-    margin-left: 10px;
+    margin-left: 10px;*/
+}
+
+#user:hover #lateral {
+    display: block;
+}
+
+#lateral .login-box {
+    background: #111111;
 }
 
 #lateral .block_aside {
@@ -233,15 +251,19 @@ nav .links a:hover::after {
 }
 
 #lateral ul {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 #lateral ul li {
-    list-style: square;
+    margin-bottom: 30px;
+}
+
+#lateral a {
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: none;
     margin-left: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 40px;
     list-style: none;
 }
 
@@ -287,7 +309,8 @@ input[type="email"]:focus {
 input[type="button"],
 input[type="submit"],
 button,
-.button, .btn {
+.button,
+.btn {
     padding: 1rem 5rem;
     margin: 3rem 0;
     cursor: pointer;
@@ -303,7 +326,8 @@ button,
 input[type="button"]:hover,
 input[type="submit"]:hover,
 button:hover,
-.button:hover, .btn:hover{
+.button:hover,
+.btn:hover {
     background: var(--bg);
     color: var(--white);
     transform: translate(0px, -3px);
@@ -332,10 +356,9 @@ button {
     margin-top: 10px;
 }
 
-
 /*CENTRAL*/
 #central {
-    width: 80%;
+    width: 100%;
     min-height: 500px;
     float: right;
 }
@@ -343,7 +366,6 @@ button {
 #central h1 {
     text-align: center;
 }
-
 
 /*PRODUCTOS*/
 
@@ -475,7 +497,7 @@ button {
 
 .blog .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap: 2rem;
     padding: 2.5rem 0;
 }
@@ -596,7 +618,7 @@ button {
 
 .contact .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap: 2rem;
     padding: 2.5rem 0;
 
@@ -773,7 +795,7 @@ button {
         left: -9rem;
     }
 
-     #menu-btn {
+    #menu-btn {
         display: inline-block;
     }
 
@@ -798,7 +820,7 @@ button {
         text-align: center;
     }
 
-    #lateral .login{
+    #lateral .login-box {
         height: 360px;
     }
 
@@ -807,7 +829,7 @@ button {
     }
 
     #content {
-       align-items: center;
+        align-items: center;
     }
 
     #lateral {

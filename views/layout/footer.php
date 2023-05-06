@@ -1,6 +1,12 @@
 </div>
 </div>
 
+<div class="bg">
+			<h3>Awaken Your Senses with Our Exciting</h3>
+			<h1>New Coffee Creation<br></h1>
+			<button class="btn">Buy Now</button>
+</div>
+
 <?php
 require_once 'blog.php';
 require_once 'services.php';
