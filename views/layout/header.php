@@ -85,7 +85,6 @@
 			</nav>
 		</div>
 
-		
 
 		<!-- MENU -->
 		<?php $categorias = Utils::showCategorias(); ?>
