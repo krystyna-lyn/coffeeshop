@@ -50,8 +50,28 @@ require_once 'contact.php';
 
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script>
-    let menu = document.getElementById("nav");
+
+$(document).ready(function(){
+
+    $(function() {
+
+        var dropdown = $('#user #lateral')
+        .on('focus', 'input', function() {
+
+            dropdown.css('display', 'block');
+        })
+        .on('blur', 'input', function() {
+
+            dropdown.removeAttr('style');
+        });
+    });
+    
+});
+
+let menu = document.getElementById("nav");
     let open = document.getElementById("menu-btn");
     let close = document.getElementById("close");
 
@@ -66,6 +86,7 @@ require_once 'contact.php';
         open.style.display = "block";
         close.style.display = "none";
     }
+
 </script>
 </body>
 
