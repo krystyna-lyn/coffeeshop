@@ -215,9 +215,6 @@ nav .links a:hover::after {
     right: 6rem;
     width: 19%;
     display: none;
-    /*min-height: 500px;
-    float: left;
-    margin-left: 10px;*/
 }
 
 #user:hover #lateral {
@@ -226,6 +223,7 @@ nav .links a:hover::after {
 
 #lateral .login-box {
     background: #111111;
+    height: 43rem;
 }
 
 #lateral .block_aside {
@@ -348,12 +346,7 @@ button:hover,
     width: 13rem;
 }
 
-label,
-input[type="button"],
-input[type="submit"],
-button {
-    margin-top: 10px;
-}
+
 
 /*CENTRAL*/
 #central {
