@@ -71,7 +71,7 @@ section {
 
 /*HEADER*/
 .header {
-    height: 14vh;
+    height: 7vh;
 }
 
 #navbar {
@@ -159,10 +159,9 @@ nav .links a:hover::after {
     margin: 3rem 0;
 }
 
-
 /*MENU*/
 #menu {
-    height: 8rem;
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,7 +171,6 @@ nav .links a:hover::after {
 #menu ul {
     list-style: none;
     text-decoration: none;
-    margin-left: 25rem;
 }
 
 #menu ul li {
@@ -211,15 +209,12 @@ nav .links a:hover::after {
     display: contents;
 }
 
-/*BARRA LATERAL*/
+/*LATERAL*/
 #lateral {
     position: absolute;
     right: 6rem;
     width: 19%;
     display: none;
-    /*min-height: 500px;
-    float: left;
-    margin-left: 10px;*/
 }
 
 #user:hover #lateral {
@@ -228,6 +223,7 @@ nav .links a:hover::after {
 
 #lateral .login-box {
     background: #111111;
+    height: 43rem;
 }
 
 #lateral .block_aside {
@@ -270,6 +266,7 @@ nav .links a:hover::after {
 /*FORMS*/
 .form_container {
     width: 50%;
+    margin: 0 auto;
 }
 
 label,
@@ -349,22 +346,19 @@ button:hover,
     width: 13rem;
 }
 
-label,
-input[type="button"],
-input[type="submit"],
-button {
-    margin-top: 10px;
-}
+
 
 /*CENTRAL*/
 #central {
     width: 100%;
     min-height: 500px;
-    float: right;
+    margin-bottom: 5rem;
+    padding: 3rem
 }
 
 #central h1 {
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 /*PRODUCTOS*/
@@ -379,7 +373,7 @@ button {
 
 .product-box {
     background: var(--white);
-    height: 35rem;
+    height: auto;
     cursor: pointer;
     box-shadow: 3px 3px 10px rgba(179, 179, 179, 0.2);
     padding-bottom: 3rem;
@@ -549,8 +543,9 @@ button {
 }
 
 .blog .container .post .blog-content p {
-    font-size: 1.4rem;
-    color: var(--para-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
 }
 
 .blog .container .post:hover img {
@@ -604,7 +599,7 @@ button {
 }
 
 .service .container .service-box .service-content p {
-    font-size: 1.6rem;
+    font-size: 16px;
     padding: 1.3rem 0;
     font-weight: 400;
     color: var(--black);
@@ -786,13 +781,7 @@ button {
 
 @media only screen and (max-device-width: 768px) {
     .header {
-        height: 7vh;
-    }
-
-    #menu {
-        position: absolute;
-        top: 32rem;
-        left: -9rem;
+        height: 4vh;
     }
 
     #menu-btn {
