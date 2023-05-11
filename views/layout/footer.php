@@ -2,9 +2,9 @@
 </div>
 
 <div class="bg">
-			<h3>Awaken Your Senses with Our Exciting</h3>
-			<h1>New Coffee Creation<br></h1>
-			<button class="btn">Buy Now</button>
+    <h3>Awaken Your Senses with Our Exciting</h3>
+    <h1>New Coffee Creation<br></h1>
+    <button class="btn">Buy Now</button>
 </div>
 
 <?php
@@ -50,44 +50,12 @@ require_once 'contact.php';
 
 </div>
 
+<!-- Script -->
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script>
+<script src="<?= base_url ?>/assets/script/script.js"></script>
 
-$(document).ready(function(){
-
-    $(function() {
-
-        var dropdown = $('#user #lateral')
-        .on('focus', 'input', function() {
-
-            dropdown.css('display', 'block');
-        })
-        .on('blur', 'input', function() {
-
-            dropdown.removeAttr('style');
-        });
-    });
-    
-});
-
-let menu = document.getElementById("nav");
-    let open = document.getElementById("menu-btn");
-    let close = document.getElementById("close");
-
-    function openmenu() {
-        menu.style.left = "0";
-        open.style.display = "none";
-        close.style.display = "block";
-    }
-
-    function closemenu() {
-        menu.style.left = "-100%";
-        open.style.display = "block";
-        close.style.display = "none";
-    }
-
-</script>
 </body>
 
 </html>
