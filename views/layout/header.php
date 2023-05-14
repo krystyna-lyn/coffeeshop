@@ -49,7 +49,7 @@
 												<input type="email" name="email" />
 												<label for="password">Password</label>
 												<input type="password" name="password" />
-												<input type="submit" value="Login" />
+												<input type="submit" class="login_btn" value="Login" />
 											</form>
 										<?php else : ?>
 											<h3><?= $_SESSION['identity']->nombre ?> <?= $_SESSION['identity']->apellidos ?></h3>

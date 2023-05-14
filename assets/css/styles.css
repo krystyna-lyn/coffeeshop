@@ -206,7 +206,7 @@ nav .links a:hover::after {
     display: contents;
 }
 
-/*LATERAL*/
+/*LOGIN*/
 #lateral {
     position: absolute;
     right: 6rem;
@@ -258,6 +258,25 @@ nav .links a:hover::after {
     margin-left: 20px;
     margin-top: 40px;
     list-style: none;
+}
+
+#login .login_btn {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    color: var(--black);
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: 7px;
+    background: none;
+    transition: all linear 0.5s;
+}
+
+#login .login_btn:hover {
+    background: var(--bg);
+    color: var(--white);
+    transform: translate(0px, -3px);
 }
 
 /*FORMS*/
